@@ -1,0 +1,68 @@
+body{
+  background-image: url(https://www.green4t.com/wp-content/uploads/2023/01/analise-preditiva-para-o-ambiente-de-ti-1280x627.jpeg);
+  padding: 40px;
+  padding-right: 160px;
+  padding-left: 160px;
+}
+
+.main{
+  padding: 1px;
+  text-align: center;
+  background-color: rgb(29, 24, 69, 0.8);
+  
+}
+
+h1{
+  font-size: 70px;
+  border: 10px solid  #124f70;
+  text-decoration:overline;
+  color: yellow;
+  border-radius: 10px;
+}
+
+p{
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main2{
+  border: 10px solid #124f70 ;
+  border-radius: 20px;
+
+}
+
+#survey-form{
+  color: white;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 10px;
+}
+
+.check{
+  text-align: left;
+}
+
+.area1{
+  text-align: left;
+  margin-top: 
+}
+
+#dropdown{
+ text-align: left;
+}
+
+#submit{
+  color:black;
+  padding: 20px;
+  padding-left:90px;
+  padding-right:90px;
+  border-radius: 40px;
+  }
+
+  #submit:hover{
+  color: grey;
+  background-color: #6d6991;
+  text-decoration: trough;
+  }
