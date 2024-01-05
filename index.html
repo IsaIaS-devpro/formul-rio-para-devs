@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SDA: Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="main">
+   
+  <h1 id="title">Survey Form: Developers</h1>
+   <div class="main2">
+  <p id="description">Thank you for taking the time to help us understand our developers better!</p>
+  <form id="survey-form">
+    <div class="area1">
+    <label for="name" id="name-label">Name
+      <input type="text" id="name" required placeholder="Enter your name">
+    </label><br> <br>
+    <label for="email" id="email-label">Email
+      <input id="email" name="email" type="email" required placeholder="Enter your Email"/>
+    </label><br><br>
+    <label for="number" id="number-label">Age
+      <input type="number" id="number" name="number" min="10" max="100" placeholder="10"></div>
+    </label><br>
+    <label for="dropdown">Which Option describes your current situation?<br>
+      <select id="dropdown" placeholder="Select">
+        <option SELECTED disabled value="">SELECT</option> 
+        <option name="WORK" value="one">WORKING</option>
+        <option name="STUDYING" value="two">STUDYING</option>
+        <option name="COLLEGE" value="three">AT COLLEGE</option>
+        <option name="INDIFERENT" value="four">INDIFERENT</option>
+      </select>
+    </label>
+    <h2>WHAT ARE YOUR SKILLS</h2> 
+    <div class="check">
+    <input type="checkbox" name="checar" id="box1" value="CHECKONE">
+    <label for="box1">HTML</label><br>
+    <label for="boxcss"><input type="checkbox" name="checar" id="boxcss" value="two">CSS</label><br>
+    <label for="boxjs"><input type="checkbox" name="checar" id="boxjs" value="two">JavaScript</label><br>
+    <label for="boxfra"><input type="checkbox" name="checar" id="boxfra" value="two">Frameworks</label><br>
+    <label for="boxdata"><input type="checkbox" name="checar" id="boxdata" value="two">Data</label></div>
+    <p>ARE YOU LOOKING FOR A JOB?</p>
+    <label for="option1">YES</label>
+    <input type="radio" id="option1" name="options" value="opcao1">
+    <label for="option2">NO</label>
+    <input type="radio" id="option2" name="options" value="opcao2"><br>
+    <label for="textarea">Help us with your vision:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Text Here"></textarea><br><br>
+    <button id="submit" type="submit" name="submit">Submit</button>
+  </form>
+  </div>
+  </div>
+</body>
+</html>
